@@ -38,9 +38,12 @@ body{
     font-weight: 800;
 }
 
-.card h2:hover{
+.-title-hover:hover{
     color: var(--primary-color);
-    cursor: pointer;    
+    cursor: pointer;
+}
+.-title-hover{
+    caret-color: black;
 }
 .learning-tag{
     width: 90px;
@@ -72,6 +75,9 @@ img{
 }
 h4{
     text-align: center;
+}
+h5{
+    color: var(--grey-color);
 }
 
 p{

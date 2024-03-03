@@ -37,6 +37,11 @@ body{
     border: 1px solid;
     font-weight: 800;
 }
+
+.card h2:hover{
+    color: var(--primary-color);
+    cursor: pointer;    
+}
 .learning-tag{
     width: 90px;
     height: 30px;
